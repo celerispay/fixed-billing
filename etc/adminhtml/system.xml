@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<section id="general" translate="label">
+			<group id="fixedbilling" showInDefault="1" showInWebsite="1" showInStore="1" translate="label">
+				<label>Fixed Billing</label>
+				<field id="enable" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+				<label>Enable</label>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+				<field id="firstname" translate="label" type="text" sortOrder="300" showInDefault="0" showInWebsite="1" showInStore="1">
+					<label>FirstName</label>
+				</field>
+				<field id="lastname" translate="label" type="text" sortOrder="300" showInDefault="0" showInWebsite="1" showInStore="1">
+					<label>LastName</label>
+				</field>
+				<field id="street" translate="label" type="text" sortOrder="300" showInDefault="0" showInWebsite="1" showInStore="1">
+					<label>Street</label>
+				</field>
+				<field id="city" translate="label" type="text" sortOrder="300" showInDefault="0" showInWebsite="1" showInStore="1">
+					<label>City</label>
+				</field>
+				<field id="country" translate="label" type="text" sortOrder="300" showInDefault="0" showInWebsite="1" showInStore="1">
+					<label>Country</label>
+				</field>
+				<field id="department" translate="label" type="text" sortOrder="300" showInDefault="0" showInWebsite="1" showInStore="1">
+					<label>Department</label>
+				</field>
+				<field id="postcode" translate="label" type="text" sortOrder="300" showInDefault="0" showInWebsite="1" showInStore="1">
+					<label>Postcode</label>
+				</field>
+				<field id="telephone" translate="label" type="text" sortOrder="300" showInDefault="0" showInWebsite="1" showInStore="1">
+					<label>Telephone</label>
+				</field>
+				<field id="email" translate="label" type="text" sortOrder="300" showInDefault="0" showInWebsite="1" showInStore="1">
+					<label>Email</label>
+				</field>
+				<field id="company" translate="label" type="text" sortOrder="300" showInDefault="0" showInWebsite="1" showInStore="1">
+					<label>Company</label>
+				</field>
+				<field id="invoiceEmail" translate="label" type="text" sortOrder="300" showInDefault="0" showInWebsite="1" showInStore="1">
+					<label>Invoice email</label>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>
+
